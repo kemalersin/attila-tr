@@ -14,12 +14,16 @@ A content focused responsive theme for [Ghost](http://github.com/tryghost/ghost/
 * Navigation support
 * Paralax cover images for posts, author archives and blog
 * Author informations for posts and author archives
-* Global-, tag- and author-rss buttons
+* Featured posts
 * Reading progress for posts
-* Autmoatic code syntax highlight and line numbers
+* Automatic code syntax highlight and line numbers
 * Disqus support
 * Sharing buttons
 >>>>>>> master
+
+## Setup
+
+Search for `var disqusShortname = "no-disqus"` in `assets/js/index.js` and replace `no-disqus` with your disqus short name.
 
 ## Copyright & License
 
