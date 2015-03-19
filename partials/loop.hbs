@@ -8,12 +8,13 @@
 	<div class="inner">
 		<header class="post-header">
 			<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-			<span class="post-meta">{{author}} {{tags prefix=" | " separator=", "}} | <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span>
+			<span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{tags prefix=" | " separator=", "}} | <a href="{{url}}#disqus_thread">Yorumlar</a></span>
 			<div class="clear"></div>
 		</header>
 
 		<section class="post-excerpt">
 			<p>{{excerpt}}&hellip;</p>
+			<p><a href="{{url}}#disqus_thread">Yorumlar</a></p>
 		</section>
 	</div>
 </article>
